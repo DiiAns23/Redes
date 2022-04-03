@@ -1,5 +1,9 @@
 # ***TAREA PREPARATORIA 1***
 
+## TOPOLOGIA DE RED
+
+![](https://github.com/DiiAns23/SoloImagenes/blob/main/A.png)
+
 ## HOSTNAME
 
 - ### NUCLEO
