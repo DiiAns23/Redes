@@ -76,21 +76,30 @@ exit
 - ### **R1**
 ```shell
 configure terminal
+int f0/0
 ip address 192.168.X3.1 255.255.0.0
+no shutdown
+exit
 exit
 ```
 
 - ### **R2**
 ```shell
 configure terminal
+int f0/0
 ip address 192.168.X2.1 255.255.0.0
+no shutdown
+exit
 exit
 ```
 
 - ### **R3**
 ```shell
 configure terminal
+int f0/0
 ip address 192.168.X1.1 255.255.0.0
+no shutdown
+exit
 exit
 ```
 
@@ -100,8 +109,6 @@ exit
 ```shell
 configure terminal
 ip route 192.168.X2.0 255.255.255.0 172.X1.0.2
-no shutdown
-exit
 exit
 ```
 
@@ -109,8 +116,6 @@ exit
 ```shell
 configure terminal
 ip route 192.168.X3.0 255.255.255.0 172.X1.0.1
-no shutdown
-exit
 exit
 ```
 
@@ -118,8 +123,6 @@ exit
 ```shell
 configure terminal
 ip route 192.168.X1.0 255.255.255.0 172.X2.0.2
-no shutdown
-exit
 exit
 ```
 
@@ -127,8 +130,6 @@ exit
 ```shell
 configure terminal
 ip route 192.168.X3.0 255.255.255.0 172.X2.0.1
-no shutdown
-exit
 exit
 ```
 
@@ -137,8 +138,6 @@ exit
 ```shell
 configure terminal
 ip route 192.168.X2.0 255.255.255.0 172.X3.0.2
-no shutdown
-exit
 exit
 ```
 
@@ -146,8 +145,6 @@ exit
 ```shell
 configure terminal
 ip route 192.168.X1.0 255.255.255.0 172.X3.0.1
-no shutdown
-exit
 exit
 ```
 
