@@ -77,7 +77,7 @@ exit
 ```shell
 configure terminal
 int f0/0
-ip address 192.168.X3.1 255.255.0.0
+ip address 192.168.X3.1 255.255.255.0
 no shutdown
 exit
 exit
@@ -87,7 +87,7 @@ exit
 ```shell
 configure terminal
 int f0/0
-ip address 192.168.X2.1 255.255.0.0
+ip address 192.168.X2.1 255.255.255.0
 no shutdown
 exit
 exit
@@ -97,7 +97,7 @@ exit
 ```shell
 configure terminal
 int f0/0
-ip address 192.168.X1.1 255.255.0.0
+ip address 192.168.X1.1 255.255.255.0
 no shutdown
 exit
 exit
