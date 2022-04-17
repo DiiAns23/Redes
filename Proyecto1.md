@@ -1,3 +1,7 @@
+## **TOPOLOGIA DE RED**
+![](https://github.com/DiiAns23/SoloImagenes/blob/main/a.png)
+
+
 ## **PREPARANDO GNS3**
 Dejar descargando las imagenes una noche antes :3
 
